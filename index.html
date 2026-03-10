@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <input type="text" class="display" id="display" readonly title="Display">
+        <!-- history panel -->
+        <div class="history" id="history">
+            <div class="history-header">History <span class="close-history" id="closeHistory">x</span></div>
+            <ul id="historyList"></ul>
+        </div>
+
+        
+        <!-- toggle button -->
+        <div class="history-toggle" id="historyToggle" title="Show History">__</div>
+        <div class="buttons">
+
+            <button title="Seven">7</button>
+            <button title="Eight">8</button>
+            <button title="Nine">9</button>
+            <button title="Divide">/</button>
+            <button title="Left Bracket">(</button>
+
+            <button title="Four">4</button>
+            <button title="Five">5</button>
+            <button title="Six">6</button>
+            <button title="Multiply">*</button>
+            <button title="Right Bracket">)</button>
+
+            <button title="One">1</button>
+            <button title="Two">2</button>
+            <button title="Three">3</button>
+            <button title="Subtract">-</button>
+            <button title="Square">x²</button>
+
+            <button title="Zero">0</button>
+            <button title="Dot">.</button>
+            <button class="equals" title="Equals">=</button>
+            <button title="Add">+</button>
+            <button title="Mod">%</button>
+
+            <button class="clear" title="Clear">C</button>
+            <button class="backspace" title="Backspace">←</button>
+            <button title="Logarithm">log</button>
+            <button title="Exponent">^</button>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
